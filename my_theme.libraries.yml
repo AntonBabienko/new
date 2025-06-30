@@ -1,0 +1,12 @@
+global-styling:
+  css:
+    theme:
+      scss/base.scss: { css_path: '/css/' }
+custom_script:
+  version: 1.x
+  js:
+    js/custom-script.js: {}
+  dependencies:
+    - core/jquery
+
+

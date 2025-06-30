@@ -1,0 +1,21 @@
+name: 'My Custom Theme'
+type: theme
+core_version_requirement: ^10
+description: 'Користувацька тема для Drupal 10'
+package: Custom
+
+
+
+base theme: claro
+libraries:
+  - my_theme/global-styling
+  - my_theme/custom_script
+regions:
+  header: 'Header'
+  breadcrumb: 'Breadcrumb'
+  pre_content: 'Pre Content'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar: 'Sidebar'
+  footer: 'Footer'
